@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { InfiniteScrolComponent } from './infinite-scrol/infinite-scrol.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InfiniteScrolComponent
   ],
   imports: [
     BrowserModule,
